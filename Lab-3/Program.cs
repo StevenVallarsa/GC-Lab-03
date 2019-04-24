@@ -36,7 +36,6 @@ namespace Lab_3
                 //   "y" or "n" will ask user to try again.
                 while (true)
                 {
-                    char result;
                     Console.Write("\nContinue? (y/n) ");
                     string answer = Console.ReadLine().ToLower();
 
